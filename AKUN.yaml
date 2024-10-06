@@ -1,14 +1,17 @@
 proxies:
-  - name: FAST
-    server: bug
+  - name: nusa
+    server: 104.17.3.81
     port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
+    type: vmess
+    uuid: 115a93be-1e97-4f83-8e2a-d2c215ad7335
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    servername: nusa-stb1.lord-ssh.my.id
     network: ws
     ws-opts:
-      path: /howdy
+      path: /vmess
       headers:
-        Host: sg-4.test3.net
+        Host: nusa-stb1.lord-ssh.my.id
     udp: true
