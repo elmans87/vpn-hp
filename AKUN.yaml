@@ -1,6 +1,6 @@
 proxies:
   - name: nusa
-    server: 104.17.3.81
+    server: nusa-stb1.lord-ssh.my.id
     port: 443
     type: vmess
     uuid: 115a93be-1e97-4f83-8e2a-d2c215ad7335
@@ -13,5 +13,5 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: nusa-stb1.lord-ssh.my.id
+        Host: 104.17.3.81
     udp: true
